@@ -1,8 +1,7 @@
-// Clase que implementa una clase
+// Clase que implementa una interfaz
+import 'figura-geometrica.dart';
 
-import 'figura_geometrica.dart';
-
-// Solo triangulo equilatero.
+// Sólo para triángulo equilatero.
 
 class Triangulo implements FiguraGeometrica {
   double? perimetro;
